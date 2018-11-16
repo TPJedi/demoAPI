@@ -16,5 +16,5 @@ WORKDIR /api-app
 COPY . .
 
 EXPOSE 3000
-## Build the angular app in production mode and store the artifacts in dist folder
+## Build the angular app in production mode and store the artifacts in dist folder-
 CMD ["npm", "start"]
